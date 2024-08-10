@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7012848C2C67B3EF009481BC /* ClippyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7012848B2C67B3EF009481BC /* ClippyApp.swift */; };
+		7012848E2C67B3EF009481BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7012848D2C67B3EF009481BC /* ContentView.swift */; };
+		701284902C67B3F1009481BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7012848F2C67B3F1009481BC /* Assets.xcassets */; };
+		701284932C67B3F1009481BC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 701284922C67B3F1009481BC /* Preview Assets.xcassets */; };
+		7012849E2C67B3F1009481BC /* ClippyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7012849D2C67B3F1009481BC /* ClippyTests.swift */; };
+		701284A82C67B3F1009481BC /* ClippyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701284A72C67B3F1009481BC /* ClippyUITests.swift */; };
+		701284AA2C67B3F1009481BC /* ClippyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701284A92C67B3F1009481BC /* ClippyUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7012849A2C67B3F1009481BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 701284802C67B3EF009481BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 701284872C67B3EF009481BC;
+			remoteInfo = Clippy;
+		};
+		701284A42C67B3F1009481BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 701284802C67B3EF009481BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 701284872C67B3EF009481BC;
+			remoteInfo = Clippy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		701284882C67B3EF009481BC /* Clippy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clippy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7012848B2C67B3EF009481BC /* ClippyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClippyApp.swift; sourceTree = "<group>"; };
+		7012848D2C67B3EF009481BC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7012848F2C67B3F1009481BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		701284922C67B3F1009481BC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		701284942C67B3F1009481BC /* Clippy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Clippy.entitlements; sourceTree = "<group>"; };
+		701284992C67B3F1009481BC /* ClippyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClippyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7012849D2C67B3F1009481BC /* ClippyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClippyTests.swift; sourceTree = "<group>"; };
+		701284A32C67B3F1009481BC /* ClippyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClippyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		701284A72C67B3F1009481BC /* ClippyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClippyUITests.swift; sourceTree = "<group>"; };
+		701284A92C67B3F1009481BC /* ClippyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClippyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		701284852C67B3EF009481BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		701284962C67B3F1009481BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		701284A02C67B3F1009481BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7012847F2C67B3EF009481BC = {
+			isa = PBXGroup;
+			children = (
+				7012848A2C67B3EF009481BC /* Clippy */,
+				7012849C2C67B3F1009481BC /* ClippyTests */,
+				701284A62C67B3F1009481BC /* ClippyUITests */,
+				701284892C67B3EF009481BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		701284892C67B3EF009481BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				701284882C67B3EF009481BC /* Clippy.app */,
+				701284992C67B3F1009481BC /* ClippyTests.xctest */,
+				701284A32C67B3F1009481BC /* ClippyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7012848A2C67B3EF009481BC /* Clippy */ = {
+			isa = PBXGroup;
+			children = (
+				7012848B2C67B3EF009481BC /* ClippyApp.swift */,
+				7012848D2C67B3EF009481BC /* ContentView.swift */,
+				7012848F2C67B3F1009481BC /* Assets.xcassets */,
+				701284942C67B3F1009481BC /* Clippy.entitlements */,
+				701284912C67B3F1009481BC /* Preview Content */,
+			);
+			path = Clippy;
+			sourceTree = "<group>";
+		};
+		701284912C67B3F1009481BC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				701284922C67B3F1009481BC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7012849C2C67B3F1009481BC /* ClippyTests */ = {
+			isa = PBXGroup;
+			children = (
+				7012849D2C67B3F1009481BC /* ClippyTests.swift */,
+			);
+			path = ClippyTests;
+			sourceTree = "<group>";
+		};
+		701284A62C67B3F1009481BC /* ClippyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				701284A72C67B3F1009481BC /* ClippyUITests.swift */,
+				701284A92C67B3F1009481BC /* ClippyUITestsLaunchTests.swift */,
+			);
+			path = ClippyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		701284872C67B3EF009481BC /* Clippy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 701284AD2C67B3F1009481BC /* Build configuration list for PBXNativeTarget "Clippy" */;
+			buildPhases = (
+				701284842C67B3EF009481BC /* Sources */,
+				701284852C67B3EF009481BC /* Frameworks */,
+				701284862C67B3EF009481BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Clippy;
+			productName = Clippy;
+			productReference = 701284882C67B3EF009481BC /* Clippy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		701284982C67B3F1009481BC /* ClippyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 701284B02C67B3F1009481BC /* Build configuration list for PBXNativeTarget "ClippyTests" */;
+			buildPhases = (
+				701284952C67B3F1009481BC /* Sources */,
+				701284962C67B3F1009481BC /* Frameworks */,
+				701284972C67B3F1009481BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7012849B2C67B3F1009481BC /* PBXTargetDependency */,
+			);
+			name = ClippyTests;
+			productName = ClippyTests;
+			productReference = 701284992C67B3F1009481BC /* ClippyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		701284A22C67B3F1009481BC /* ClippyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 701284B32C67B3F1009481BC /* Build configuration list for PBXNativeTarget "ClippyUITests" */;
+			buildPhases = (
+				7012849F2C67B3F1009481BC /* Sources */,
+				701284A02C67B3F1009481BC /* Frameworks */,
+				701284A12C67B3F1009481BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				701284A52C67B3F1009481BC /* PBXTargetDependency */,
+			);
+			name = ClippyUITests;
+			productName = ClippyUITests;
+			productReference = 701284A32C67B3F1009481BC /* ClippyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		701284802C67B3EF009481BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					701284872C67B3EF009481BC = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					701284982C67B3F1009481BC = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 701284872C67B3EF009481BC;
+					};
+					701284A22C67B3F1009481BC = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 701284872C67B3EF009481BC;
+					};
+				};
+			};
+			buildConfigurationList = 701284832C67B3EF009481BC /* Build configuration list for PBXProject "Clippy" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7012847F2C67B3EF009481BC;
+			productRefGroup = 701284892C67B3EF009481BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				701284872C67B3EF009481BC /* Clippy */,
+				701284982C67B3F1009481BC /* ClippyTests */,
+				701284A22C67B3F1009481BC /* ClippyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		701284862C67B3EF009481BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				701284932C67B3F1009481BC /* Preview Assets.xcassets in Resources */,
+				701284902C67B3F1009481BC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		701284972C67B3F1009481BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		701284A12C67B3F1009481BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		701284842C67B3EF009481BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7012848E2C67B3EF009481BC /* ContentView.swift in Sources */,
+				7012848C2C67B3EF009481BC /* ClippyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		701284952C67B3F1009481BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7012849E2C67B3F1009481BC /* ClippyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7012849F2C67B3F1009481BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				701284A82C67B3F1009481BC /* ClippyUITests.swift in Sources */,
+				701284AA2C67B3F1009481BC /* ClippyUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7012849B2C67B3F1009481BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 701284872C67B3EF009481BC /* Clippy */;
+			targetProxy = 7012849A2C67B3F1009481BC /* PBXContainerItemProxy */;
+		};
+		701284A52C67B3F1009481BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 701284872C67B3EF009481BC /* Clippy */;
+			targetProxy = 701284A42C67B3F1009481BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		701284AB2C67B3F1009481BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		701284AC2C67B3F1009481BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		701284AE2C67B3F1009481BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Clippy/Clippy.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Clippy/Preview Content\"";
+				DEVELOPMENT_TEAM = 32KYXA7RFS;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BTZIndustries.Clippy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		701284AF2C67B3F1009481BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Clippy/Clippy.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Clippy/Preview Content\"";
+				DEVELOPMENT_TEAM = 32KYXA7RFS;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BTZIndustries.Clippy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		701284B12C67B3F1009481BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 32KYXA7RFS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BTZIndustries.ClippyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Clippy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Clippy";
+			};
+			name = Debug;
+		};
+		701284B22C67B3F1009481BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 32KYXA7RFS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BTZIndustries.ClippyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Clippy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Clippy";
+			};
+			name = Release;
+		};
+		701284B42C67B3F1009481BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 32KYXA7RFS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BTZIndustries.ClippyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Clippy;
+			};
+			name = Debug;
+		};
+		701284B52C67B3F1009481BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 32KYXA7RFS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BTZIndustries.ClippyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Clippy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		701284832C67B3EF009481BC /* Build configuration list for PBXProject "Clippy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				701284AB2C67B3F1009481BC /* Debug */,
+				701284AC2C67B3F1009481BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		701284AD2C67B3F1009481BC /* Build configuration list for PBXNativeTarget "Clippy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				701284AE2C67B3F1009481BC /* Debug */,
+				701284AF2C67B3F1009481BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		701284B02C67B3F1009481BC /* Build configuration list for PBXNativeTarget "ClippyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				701284B12C67B3F1009481BC /* Debug */,
+				701284B22C67B3F1009481BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		701284B32C67B3F1009481BC /* Build configuration list for PBXNativeTarget "ClippyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				701284B42C67B3F1009481BC /* Debug */,
+				701284B52C67B3F1009481BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 701284802C67B3EF009481BC /* Project object */;
+}
